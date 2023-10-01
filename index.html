@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Ushoptec | Tus compras a un click</title>
+        <!--Ceo y posicionamiento web-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <meta name="language" content="es-PE" />
+        <meta name="country" content="PER" />
+        <meta name="currency" content="S/" />
+        <meta name="og:type" content="website" />
+        <meta name="author" content="Ushoptec"/>
+        <meta name="title" content="Ushoptec | Tus compras a un click" >
+        <meta name="description" content="Tus compras a un click. Encuentra los mejores precios en tecnología y electrohogar"/>
+        <meta name="disribution" content="global"/>
+        <meta name="copyright" content="Copyright 2023 by Ushoptec"/>
+        <meta name="theme-color" content="#4b22f4"/>
+        <!--###########################-->
+        <!--Targetas de Twitter-->
+        <meta name="twitter:title" content="Ushoptec | Tus compras a un click"/>
+        <meta name="twitter:description" content="Tus compras a un click. Encuentra los mejores precios en tecnología y electrohogar"/>
+        <meta name="twitter:card" content="photo"/>
+        <meta name="twitter:site" content="@Ushoptec"/>
+        <meta name="twitter:url" content="https://ushoptec.com" />
+        <meta name="twitter:image" content=""/>
+        <!--###################-->
+        <!-- Open Graph data Facebook -->
+        <meta property="og:title" content="Ushoptec | Tus compras a un click"/>
+        <meta property="og:description" content="Tus compras a un click. Encuentra los mejores precios en tecnología y electrohogar"/>
+        <meta property="og:type" content="Article" />
+        <meta property="og:site_name" content="Ushoptec"/>
+        <meta property="og:url" content="https://ushoptec.com" />
+        <meta property="og:image" content=""/>
+        <!--###########################--> 
+        <!--Fuentes, estylos, javascript y favicon-->
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"/>
+        <link rel="stylesheet" media="all" href="css/stylos.css"/>
+        <link rel="stylesheet" href="css/iconos/iconos.css"/>
+        <link rel="canonical" href="https://usoftec.com"/>
+        <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet"/>
+        <script src="js/main.js" data-turbolinks-track="true"></script>
+        <!--#######################################-->
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-251773407-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-251773407-1');
+        </script>
+        <!--#######################################-->
+    </head>
+    <body style="background-image: linear-gradient( 86deg, #fff 0%, #fff 49%, #fff 100%);">
+        <div id="user-data" class="absolute z-depth-2 white" data-open="false" data-turbolinks-permanent>
+            <div>
+                <nav>
+                    <ul class='no-list collection main-nav'>
+                        <div class='collection-item no-padding-large user-nav' style='font-size:1.1em;'>
+                            <a class="grey-hover" href="index.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Inicio</li>
+                            </a>
+                            <a class="grey-hover" href="cursos.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Cursos</li>
+                            </a>
+                            <a href="blog.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Blog</li>
+                            </a>
+                            <a href="talleres.html">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Talleres</li>
+                            </a>
+                            <a target="_blank" href="https://www.paypal.com/paypalme/usoftec">
+                                <li class='top-space row middle-xs grey-hover lighten-3-hover'>Donar</li>
+                            </a>
+                        </div>
+                    </ul>
+                </nav>    
+            </div>
+        </div>
+        <nav class='grey darken-4 fixed new-black-text text-lighten-3 z-depth-1' data-turbolinks-permanent='true' id='main-nav'>
+            <div class="row center-xs relative large-padding">
+                <div class=' main-container col-xs-12 col-sm-11 col-md-10' stlye=''>
+                    <div class='box'>
+                        <button aria-label='toggle menu' class='tcon tcon-menu--xbutterfly absolute' id='open_user_data' style='left:1em;top:1.7em;' type='button'>
+                            <span aria-hidden='true' class='tcon-menu__lines'></span>
+                            <span class='tcon-visuallyhidden'></span>
+                        </button>
+                        <ul class='no-list row middle-xs'>
+                            <div class='col-xs-2 hidden-bg'></div>
+                            <div class='no-padding text-left col-xs-5 col-sm-2 col-md-4'>
+                                <div class='box'>
+                                    <a href="index.html"><img height="45" src="img/usoftec.png" alt="Logotipo" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class=' no-padding text-right col-xs-5"                                                                                                                                                                                                              col-sm-9 col-md-8'>
+                                <div class='box'>
+                                    <ul class='horizontal_nav new-black-text text-lighten-3 relative text-right' style='min-height:1em;'>
+                                        <a class="hidden-xs" href="index.html">
+                                            <li class='inline-block'>
+                                                <i class='icon-home'></i>
+                                                <p class='no-margin be-small'>Inicio</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="cursos.html">
+                                            <li class='inline-block'>
+                                                <i class='icon-play'></i>
+                                                <p class='no-margin be-small'>Cursos</p>
+                                            </li>
+                                        </a>
+                                        <a class="hidden-xs" href="blog.html">
+                                            <li class='inline-block'>
+                                                <i class="icon-book"></i>
+                                                <p class='no-margin be-small'>Blog</p>
+                                            </li>
+                                        </a> 
+                                        <a class="hidden-xs" href="talleres.html">
+                                            <li class='inline-block'>
+                                                <i class="icon-file-text2"></i>
+                                                <p class='no-margin be-small'>Talleres</p>
+                                            </li>
+                                        </a> 
+                                        <a class="hidden-xs" href="https://www.paypal.com/paypalme/usoftec" target="_blank">
+                                            <li class='inline-block'>
+                                                <i class="icon-credit-card"></i>
+                                                <p class='no-margin be-small'>Donar</p>
+                                            </li>
+                                        </a>    
+                                    </ul>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section id="body">
+            <div class="portadaindex">
+                <header class='relative verano-header'>
+                    <div class='absolute text-center white-text bold full-width' style='top:1em;'>
+                        <br>
+                    
+                        <p class="portada__titulo">Ushoptec</p>
+                        <p class="portada__descripsion">Tus compras a un click</p>
+                        <br>
+                        <a class="botonschooltec05" href="cursos.html" style="color:#ffffff;">Ver productos</a>
+                        <br>
+                        <br>
+                        <br>
+                        <a class="botonschooltec03" href="https://www.paypal.com/paypalme/usoftec" target="_blank" style="color:#ffffff;">Ver ofertas</a>
+                        <br>
+                </header>
+            </div>
+            <section class='top-30'>
+                <div class="row center-xs text-left ">
+                    <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                        <div class='box'>
+                            <h3 class='be-big slim no-margin'>   
+                                <h4 class="index005">Descubre nuestras categorías</h4>
+                            </h3>
+                            <div class='row top-xs center-xs text-left'>
+                                <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
+                                    <div class='box'>
+                                        <div id='courses'>
+                                            <div class='top-30'>
+                                                <div class='row center-xs'>
+                                                    
+                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                        <div class='box'>
+                                                            <a href="ingenieria.html">
+                                                                <header class='large-padding text-center relative' style='background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);'>
+                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                        <img height="20" src="img/ingenieria.png" alt="Cursos de manejo de software de Ingeniería" />
+                                                                    </div>
+                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/ingenieria.png" alt="Cursos de manejo de software de Ingeniería" />
+                                                                </header>
+                                                            </a>
+                                                        </div>
+                                                        <div class='white large-padding body'>
+                                                            <h2 class='black-text no-margin normal-line-height'>
+                                                                <a href="ingenieria.html">Electrodomésticos</a>
+                                                            </h2>
+                                                            <div class='row bottom-xs'>
+                                                                <div class=' col-xs-6'>
+                                                                    <div class='box'>
+                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                        <span class='middle-block'>+100 Prod</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                    <div class='box'>
+                                                                        <div id='add-course-75'>
+                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ingenieria.html">Ver</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                        <div class='box'>
+                                                            <a href="ofimatica.html">
+                                                                <header class='large-padding text-center relative' style='background: rgb(254,198,112); background: linear-gradient(86deg, rgb(248, 205, 139) 0%, rgba(255, 98, 98, 0.877) 49%, rgba(247,134,77,0.9136029411764706) 115%);'>
+                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                        <img height="20" src="img/ofimatica.png" alt="Cursos de manejo de software de Ofimática" />
+                                                                    </div>
+                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/ofimatica.png" alt="Cursos de manejo de software de Ofimática" />
+                                                                </header>
+                                                            </a>
+                                                        </div>
+                                                        <div class='white large-padding body'>
+                                                            <h2 class='black-text no-margin normal-line-height'>
+                                                                <a href="ofimatica.html">Tecnología</a>
+                                                            </h2>
+                                                            <div class='row bottom-xs'>
+                                                                <div class=' col-xs-6'>
+                                                                    <div class='box'>
+                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                        <span class='middle-block'>+100 Prod</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                    <div class='box'>
+                                                                        <div id='add-course-75'>
+                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="ofimatica.html">Ver</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                    <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                        <div class='box'>
+                                                            <a href="diseñografico.html">
+                                                                <header class='large-padding text-center relative' style='background-image: linear-gradient(86deg, rgba(77,213,107,1) 0%, rgba(20,159,72,1) 49%, rgba(28,185,56,1) 115%);'>
+                                                                    <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                                        <img height="20" src="img/dgrafico.png" alt=" " />
+                                                                    </div>
+                                                                    <img style="height:100px;z-index:10" class="relative avatar" src="img/dgrafico.png" alt="Browser" />
+                                                                </header>
+                                                            </a>
+                                                        </div>
+                                                        <div class='white large-padding body'>
+                                                            <h2 class='black-text no-margin normal-line-height'>
+                                                                <a href="diseñografico.html">Computación</a>
+                                                            </h2>
+                                                            <div class='row bottom-xs'>
+                                                                <div class=' col-xs-6'>
+                                                                    <div class='box'>
+                                                                        <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                        <span class='middle-block'>+050 Prod</span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                    <div class='box'>
+                                                                        <div id='add-course-75'>
+                                                                            <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="diseñografico.html">Proximos</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </article>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <center>
+                    <a class="botonschooltec02" href="cursos.html">
+                        <color style="color: #ffffff; font-weight: bold;">Ir a mis productos</color>
+                    </a>
+                </center>
+                <br>
+                <br>
+            </section>
+
+  
+
+            <div class="row center-xs text-left " style="background-image: linear-gradient(86deg, #f0f2f5 0%, #f0f2f5 49%, #f0f2f5 100%);">
+                <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                    <div class='box'>
+                        <h3 class='be-big slim no-margin'>   
+                            <h4 class="index005">Productos destacados</h4>
+                        </h3>
+                        <div class='row top-xs center-xs text-left'>
+                            <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
+                                <div class='box'>
+                                    <div id='courses'>
+                                        <div class='top-30'>
+                                            <div class='row center-xs'>
+                                            
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'style="background: #f1f1f1;">
+                                                        <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                            <img height="20" src="img/jarraelectrica1500w.jpg" alt="Cursos preuniversitarios" />
+                                                        </div>
+                                                        <a href="https://wa.me/message/EHJK3NKGJ6BCM1">
+                                                            <img class="imagendecursos" src="img/termodigital.png" alt="Fundamentos de mapas geográficos con AutoCAD">
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="https://wa.me/message/EHJK3NKGJ6BCM1">Termo digital minimalista 1/2 Litro</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>+999 Vend</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="https://wa.me/message/EHJK3NKGJ6BCM1">S/ 24.99 🛒</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <center>
+                                                        <a class="botonschooltec02" href="https://wa.me/message/EHJK3NKGJ6BCM1">
+                                                            <color style="color: #ffffff; font-weight: bold;">Anadir al carro</color>
+                                                        </a>
+                                                    </center>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                                
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'style="background: #f1f1f1;">
+                                                        <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                            <img height="20" src="img/iconoautocad.png" alt="Cursos preuniversitarios" />
+                                                        </div>
+                                                        <a href="cursofundamentosdeautocad.html">
+                                                            <img class="imagendecursos" src="https://crehana-public-catalog.imgix.net/images/courses/promo-images/5079bd52/79d9398e.jpeg?auto=format&dpr=2&w=300&ar=16:9&fit=crop" alt="Fundamentos de física">
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="cursofundamentosdeautocad.html">Revit & BIM: Crea proyectos arquitectónicos</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>05h 26 mins</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursofundamentosdeautocad.html">S/ 59.99 🛒</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <center>
+                                                        <a class="botonschooltec02" href="cursofundamentosdeautocad.html">
+                                                            <color style="color: #ffffff; font-weight: bold;">Más información</color>
+                                                        </a>
+                                                    </center>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'style="background: #f1f1f1;">
+                                                        <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                            <img height="20" src="img/iconoexcel.png" alt="Cursos preuniversitarios" />
+                                                        </div>
+                                                        <a href="cursoanalisisdedataytablasdinamicas.html">
+                                                            <img class="imagendecursos" src="https://crehana-public-catalog.imgix.net/images/courses/promo-images/bbc840f6/04530c0b.jpeg?auto=compress&fm=webp&fit=crop&dpr=1" alt="Fundamentos de mapas geográficos con AutoCAD">
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="cursoanalisisdedataytablasdinamicas.html">Análisis de data y tablas dinámicas con Excel</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>01h 10mins</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoanalisisdedataytablasdinamicas.html">S/ 50.00 🛒</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <center>
+                                                        <a class="botonschooltec02" href="cursoanalisisdedataytablasdinamicas.html">
+                                                            <color style="color: #ffffff; font-weight: bold;">Más información</color>
+                                                        </a>
+                                                    </center>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <br>
+            <div class="row center-xs text-left ">
+                <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                    <div class='box'>
+                        <h3 class='be-big slim no-margin'>   
+                            <h4 class="index005">Ofertas del mes</h4>
+                        </h3>
+                        <div class='row top-xs center-xs text-left'>
+                            <div class='col-courses text-left courses-index black-text' style='max-width:930px;flex-basis:930px;'>
+                                <div class='box'>
+                                    <div id='courses'>
+                                        <div class='top-30'>
+                                            <div class='row center-xs'>
+                                            
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'style="background: #f1f1f1;">
+                                                        <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                            <img height="20" src="img/jarraelectrica1500w.jpg" alt="Cursos preuniversitarios" />
+                                                        </div>
+                                                        <a href="cursofundamentosdeexcel.html">
+                                                            <img class="imagendecursos" src="img/termodigital.png" alt="Fundamentos de mapas geográficos con AutoCAD">
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="cursofundamentosdeexcel.html">Termo digital minimalista</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>01h 28mins</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursofundamentosdeexcel.html">S/ 59.99 🛒</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <center>
+                                                        <a class="botonschooltec02" href="cursofundamentosdeexcel.html">
+                                                            <color style="color: #ffffff; font-weight: bold;">Más información</color>
+                                                        </a>
+                                                    </center>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                                
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'style="background: #f1f1f1;">
+                                                        <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                            <img height="20" src="img/iconoautocad.png" alt="Cursos preuniversitarios" />
+                                                        </div>
+                                                        <a href="cursofundamentosdeautocad.html">
+                                                            <img class="imagendecursos" src="https://crehana-public-catalog.imgix.net/images/courses/promo-images/5079bd52/79d9398e.jpeg?auto=format&dpr=2&w=300&ar=16:9&fit=crop" alt="Fundamentos de física">
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="cursofundamentosdeautocad.html">Revit & BIM: Crea proyectos arquitectónicos</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>05h 26 mins</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursofundamentosdeautocad.html">S/ 59.99 🛒</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <center>
+                                                        <a class="botonschooltec02" href="cursofundamentosdeautocad.html">
+                                                            <color style="color: #ffffff; font-weight: bold;">Más información</color>
+                                                        </a>
+                                                    </center>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                                <article class='card col-course course no-padding premium relative text-left' data-category-ids=''>
+                                                    <div class='box'style="background: #f1f1f1;">
+                                                        <div class='absolute' style='top:15px;right:15px;z-index:10;'>
+                                                            <img height="20" src="img/iconoexcel.png" alt="Cursos preuniversitarios" />
+                                                        </div>
+                                                        <a href="cursoanalisisdedataytablasdinamicas.html">
+                                                            <img class="imagendecursos" src="https://crehana-public-catalog.imgix.net/images/courses/promo-images/bbc840f6/04530c0b.jpeg?auto=compress&fm=webp&fit=crop&dpr=1" alt="Fundamentos de mapas geográficos con AutoCAD">
+                                                        </a>
+                                                    </div>
+                                                    <div class='white large-padding body'>
+                                                        <h2 class='black-text no-margin normal-line-height'>
+                                                            <a href="cursoanalisisdedataytablasdinamicas.html">Análisis de data y tablas dinámicas con Excel</a>
+                                                        </h2>
+                                                        <div class='row bottom-xs'>
+                                                            <div class=' col-xs-6'>
+                                                                <div class='box'>
+                                                                    <div class='circle-avatar grey inline-block middle-block' style='width:20px;height:20px;'></div>
+                                                                    <span class='middle-block'>01h 10mins</span>
+                                                                </div>
+                                                            </div>
+                                                            <div class='text-right col-xs-6' style='font-size:0.8em;'>
+                                                                <div class='box'>
+                                                                    <div id='add-course-75'>
+                                                                        <a class="waves-effect waves-teal btn-flat green-flat-text no-padding no-margin" style="font-size:1.2em;line-height:51px;" data-type="script" href="cursoanalisisdedataytablasdinamicas.html">S/ 50.00 🛒</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <br>
+                                                    <center>
+                                                        <a class="botonschooltec02" href="cursoanalisisdedataytablasdinamicas.html">
+                                                            <color style="color: #ffffff; font-weight: bold;">Más información</color>
+                                                        </a>
+                                                    </center>
+                                                    <br>
+                                                    <br>
+                                                </article>
+                                            </div>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+           
+            <div class="top-30">
+                <footer class='footer grey darken-4 big-padding white-text'>
+                    <div class="row center-xs text-left ">
+                        <div class=' col-xs-12 col-sm-11 col-md-10 col-lg-9'>
+                            <div class='box'>
+                                <div class='row center-xs text-left'>
+                                    <div class='last-xs first-md col-xs-6 col-sm-12 col-md-3 col-lg-2'>
+                                        <div class='box'><img width="150" src="img/usoftec.png" alt="" /></div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Contenido</p>
+                                            <ul>
+                                                <li><a href="cursos.html">Cursos</a></li>
+                                                <li><a href="blog.html">Blog</a></li>
+                                                <li><a href="talleres.html">Talleres</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Cursos</p>
+                                            <ul>
+                                                <li><a href="ingenieria.html">Ingeniería</a></li>
+                                                <li><a href="ofimatica.html">Ofimática</a></li>
+                                                <li><a href="diseñografico.html">Diseño</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class=' col-xs-6 col-sm-3 col-md-3 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Nosotros</p>
+                                            <ul>
+                                                <li><a href="equipo.html">Equipo</a></li>
+                                                <li><a href="contacto.html">Contacto</a></li>
+                                                <li><a href="info.html">Información</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class='social col-xs-6 col-sm-3 col-md-6 col-lg-2'>
+                                        <div class='box'>
+                                            <p class='uppercase green-flat-text'>Redes sociales</p>
+                                            <a href="https://twitter.com/Usoftec" target="_blank">
+                                                <img height="25" src="img/twitter.png" alt="twitter" />
+                                            </a>
+                                            <a href="https://www.facebook.com/Usoftec" target="_blank">
+                                                <img height="25" src="img/facebook.png" alt="Facebook"/>
+                                            </a>
+                                            <a href="https://instagram.com/Usoftec" target="_blank">
+                                                <img height="25" src="img/instagram.png" alt="twitter"/>
+                                            </a>
+                                            <!--a href="https://www.youtube.com/channel/UCZli6TQ7vIYh94IvWfx1n_g" target="_blank">
+                                                <img height="25" src="img/youtube.png" alt="youtube"/-->
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+        </section>
+    </body>
+</html>
